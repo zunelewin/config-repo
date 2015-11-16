@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      database: productdb
+      database: reviewdb
       host: localhost
       port: 27017
