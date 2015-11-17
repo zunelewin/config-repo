@@ -7,5 +7,4 @@ spring:
       host: localhost
       port: 27017
       
-  profiles: dev
     
