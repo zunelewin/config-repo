@@ -10,11 +10,7 @@ spring:
   
 name: john weather
 
----
-spring:
-  profiles: dev
-  
-name: john first weather
+
   
       
     
