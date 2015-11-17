@@ -1,10 +1,20 @@
-name: john first weather
-
 spring:
   data:
     mongodb:
       database: productdb
       host: localhost
       port: 27017
+---      
+spring:      
+  profiles: pro
+  
+name: john weather
+
+---
+spring:
+  profiles: dev
+  
+name: john first weather
+  
       
     
