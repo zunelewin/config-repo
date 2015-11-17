@@ -4,6 +4,8 @@ spring:
       database: productdb
       host: localhost
       port: 27017
+  profiles:
+    active: pro
 ---      
 spring:      
   profiles: pro
