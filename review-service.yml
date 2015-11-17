@@ -1,1 +1,9 @@
 
+name: review boot
+
+spring:
+  data:
+    mongodb:
+      database: reviewdb
+      host: localhost
+      port: 27017
