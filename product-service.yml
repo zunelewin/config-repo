@@ -3,7 +3,7 @@ name: john weather
 spring:
   data:
     mongodb:
-      database: whatdb
+      database: productdb
       host: localhost
       port: 27017
       
