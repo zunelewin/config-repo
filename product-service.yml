@@ -6,11 +6,7 @@ spring:
       port: 27017
   profiles:
     active: pro
----      
-spring:      
-  profiles: pro
-  
-name: john weather
+
 
 
   
