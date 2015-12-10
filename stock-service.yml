@@ -2,3 +2,7 @@ spring:
   data:
     mongodb:
       database: stockdb
+      host: localhost
+      port: 27017
+      
+      
