@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      database: userdb
+      database: peopledb
       host: localhost
       port: 27017   
