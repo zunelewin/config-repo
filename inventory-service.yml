@@ -4,8 +4,44 @@ spring:
 
 ---
 spring:
+  profiles: production
+        
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.100:32769/inventorydb
+          
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.99.100:8761/eureka/
+      
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.data.document.mongodb: INFO
+    org.springframework.transaction: INFO    
+      
+---
+spring:
   profiles: dev
       
   data:
     mongodb:
       uri: mongodb://192.168.99.100:32769/testdb
+               
+  redis:
+    host: 192.168.99.100
+    port: 6379    
+          
+logging:
+  level:
+    org.springframework.web: debug
+    org.springframework.data.document.mongodb: debug
+    org.springframework.transaction: debug
+                
+eureka:
+  client:
+    enabled: false
