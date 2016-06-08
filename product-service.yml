@@ -3,7 +3,7 @@ spring:
     active: production
       
 ---
-spring
+spring:
   profiles: production
   
   data:
