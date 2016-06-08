@@ -2,6 +2,18 @@ spring:
   profiles:
     active: production
       
- 
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.100:32768/catalogdb  
+  aop:
+    proxy-target-class: true 
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.99.100:8761/eureka/
+    
+  instance:
+    lease-renewal-interval-in-seconds: 10
       
     
