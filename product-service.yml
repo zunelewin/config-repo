@@ -1,12 +1,4 @@
-spring:
-  data:
-    mongodb:
-      database: productdb
-      host: localhost
-      port: 27017
-      
-name: john weather      
-    
+
 
 
 
