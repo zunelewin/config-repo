@@ -8,7 +8,13 @@ spring:
   aop:
     proxy-target-class: true 
   
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.99.100:8761/eureka/
+    
+  instance:
+    lease-renewal-interval-in-seconds: 10
 
       
     
