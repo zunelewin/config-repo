@@ -4,15 +4,7 @@ spring:
       
 
   
-spring:    
-  profiles: production
-    
-  data:
-    mongodb:
-      uri: mongodb://192.168.99.100:32768/catalogdb  
-  aop:
-    proxy-target-class: true      
-            
+
 
       
     
