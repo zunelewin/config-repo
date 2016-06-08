@@ -2,7 +2,7 @@ spring:
   profiles:
     active: production
       
----
+
   
 spring:    
   profiles: production
@@ -13,18 +13,6 @@ spring:
   aop:
     proxy-target-class: true      
             
----
 
-spring:
-  profiles: dev
-  
-  data:
-    mongodb:
-      uri: mongodb://192.168.99.100:32768/testdb
-      
-eureka:
-  client:
-    enabled: false             
-             
       
     
