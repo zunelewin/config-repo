@@ -2,10 +2,6 @@ spring:
   profiles:
     active: production
       
----
-spring:
-  profiles: production
-  
   data:
     mongodb:
       uri: mongodb://192.168.99.100:32768/catalogdb  
