@@ -1,6 +1,6 @@
----
 spring:
-  profiles: production
+  profiles: 
+    active: dev
       
   data:
     mongodb:
